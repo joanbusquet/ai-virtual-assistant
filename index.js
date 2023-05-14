@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 app.post('/query', query);
-app.get('/aleatories', embeddings);
+app.get('/embeddings', embeddings);
 
 app.listen(port, () => {
   console.log(`AI Virtual assistant corriendo en puerto ${port}`);
