@@ -1,0 +1,21 @@
+{
+  "name": "ai-virtual-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "author": "Joan Busquet",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.21.0",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.0.75",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "type": "module"
+}
